@@ -1,4 +1,5 @@
 import React from 'react'
+import withStyles from './withStyles'
 
 const styles = {
   default: {
@@ -32,4 +33,4 @@ const BadButton = props => {
   )
 }
 
-export default BadButton
+export default withStyles(BadButton)
